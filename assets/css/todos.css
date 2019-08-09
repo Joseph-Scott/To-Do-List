@@ -1,4 +1,11 @@
 
+body {
+	font-family: roboto;
+	background: #c31432;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 h1 {
 	background: #2980b9;
 	color: white;
@@ -7,38 +14,6 @@ h1 {
 	text-transform: uppercase;
 	font-size: 24px;
 	font-weight: normal;
-}
-
-.fa-plus {
-	float: right;
-}
-
-body {
-	background: #c31432;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-
-ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-body {
-	font-family: roboto;
-}
-
-li {
-	background: #fff;
-	height: 40px;
-	line-height: 40px;
-	color: #666;
-}
-
-li:nth-child(2n) {
-	background: #f7f7f7;
 }
 
 span {
@@ -51,7 +26,27 @@ span {
 	display: inline-block;
 	transition: 0.2s linear;
 	opacity: 0;
+}
 
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+}
+
+.fa-plus {
+	float: right;
+}
+
+li:nth-child(2n) {
+	background: #f7f7f7;
 }
 
 li:hover span {
